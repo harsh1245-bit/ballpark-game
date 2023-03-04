@@ -101,7 +101,7 @@ function Board(props) {
                 <h1>{que}</h1>
                 
                 <div style={{display:"inline"}}>
-                    <div id="slider" style={{margin:"100px"}}>
+                    <div id="slider" style={{margin:"10%"}}>
                         <Slider
                         size="small"
                         defaultValue={0}
