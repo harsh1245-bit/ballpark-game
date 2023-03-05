@@ -30,7 +30,7 @@ export default function GameOver(props) {
 
   const share = React.useCallback(async () => {
     await navigator?.clipboard?.writeText(
-      `🏛️ wikitrivia.tomjwatson.com\n\n${getMedal(
+      `🏛️ https://ballpark-numeracy.netlify.app/\n\n${getMedal(
         score
       )}Streak: ${score}\n${getMedal(highscore)}Best Streak: ${highscore}`
     );
